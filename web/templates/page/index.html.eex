@@ -1,6 +1,12 @@
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <h4><%= gettext "Hi! I'm Ujwal! Welcome to %{name}", name: "my first Phoenix app!" %></h4>
+  <h3>Click on 
+    <a href="/topics" class="brand-logo">Discussions</a> 
+    to check it out!
+  </h3>
+  <h4>
+    <a href="https://github.com/UjwalBattar" target="_blank">My Github</a>
+  </h4>
 </div>
 
 <div class="row marketing">
@@ -15,9 +21,6 @@
       </li>
       <li>
         <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/UjwalBattar" target="_blank">Ujwal's Github</a>
       </li>
     </ul>
   </div>
