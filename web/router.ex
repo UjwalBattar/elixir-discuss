@@ -23,7 +23,7 @@ defmodule Discuss.Router do
     # post "/topics", TopicController, :create
     # get "/topics/:id/edit", TopicController, :edit
     # put "/topics/:id", TopicController, :update
-    # put "/topics/delete/:id", TopicController, :delete
+    # delete "/topics/:id", TopicController, :delete
     resources "/topics", TopicController
   end
 
